@@ -10,7 +10,7 @@ Proje, SQLite veritabanı ile desteklenmiştir.
 - Admin panelinden ürün:
   - Eklenebilir 
   - Silinebilir 
-  - Güncellenebilir ✏️
+  - Güncellenebilir
 - SQLite veritabanı bağlantısı yapılmıştır.
 - Tüm sayfalar ortak `base.html` şablonunu kullanır (Jinja2 template inheritance).
 - Basit ama işlevsel bir CSS tasarımı mevcuttur.
