@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Ürün Ekle{% endblock %}
+
+{% block content %}
+<h1>Yeni Ürün Ekle</h1>
+<form method="POST">
+    <input type="text" name="name" placeholder="Gözlük Adı" required><br>
+    <input type="text" name="price" placeholder="Fiyat" required><br>
+    <input type="text" name="image" placeholder="Görsel URL"><br>
+    <button type="submit">Ekle</button>
+</form>
+{% endblock %}

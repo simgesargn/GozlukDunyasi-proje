@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}Admin Paneli{% endblock %}
+
+{% block content %}
+<h1>Admin Paneli</h1>
+<a href="{{ url_for('add_product') }}">Yeni Gözlük Ekle</a>
+<table>
+    <tr>
+        <th>Ad</th>
+        <th>Fiyat</th>
+        <th>Görsel</th>
+        <th>İşlem</th>
+    </tr>
+    {% for product in products %}
+    <tr>
+        <td>{{ product.name }}</td>
+        <td>{{ product.price }}</td>
+        <td><img src="{{ product.image }}" width="100"></td>
+        <td>
+            <a href="/edit/1" class="btn btn-warning">Düzenle</a>
+            <a href="/delete/1" class="btn btn-danger">Sil</a>
+
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

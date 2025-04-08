@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Ana Sayfa{% endblock %}
+
+{% block content %}
+<h1>Ürünler</h1>
+<div class="product-list">
+    {% for product in products %}
+    <div class="product">
+        <img src="{{ product.image }}" alt="{{ product.name }}">
+        <h2>{{ product.name }}</h2>
+        <p>{{ product.price }} TL</p>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
