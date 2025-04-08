@@ -4,9 +4,6 @@ Bu proje, Flask kullanılarak geliştirilen basit ve dinamik bir gözlük satı�
 Kullanıcı arayüzü ve admin paneli ile birlikte, ürün ekleme, silme, düzenleme ve listeleme gibi temel CRUD işlemleri yapılabilmektedir. 
 Proje, SQLite veritabanı ile desteklenmiştir.
 
-### Admin Paneli
-![Admin Paneli](ekran-goruntuleri/admin-paneli.png)
-
 ## Proje Özellikleri
 
 - Kullanıcı arayüzünde ürün listesi dinamik olarak görüntülenir.
