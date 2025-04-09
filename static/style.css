@@ -32,10 +32,3 @@ table, th, td {
     padding: 10px;
 }
 
-.product-image {
-    width: 250px;
-    height: auto;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
